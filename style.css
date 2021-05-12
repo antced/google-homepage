@@ -1,0 +1,173 @@
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* NAVBAR */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 22px 20px 20px 19px
+}
+
+.navleft {
+  display: flex;
+  gap: 20px;
+}
+
+.navright {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navlinkleft {
+  font-size: 0.87rem;
+  color: darkslategray;
+}
+
+.navlinkright {
+  font-size: 0.8rem;
+  color: darkslategray;
+}
+
+.appicon {
+  height: 16px;
+  margin-left: 16px;
+  margin-right: 10px;
+}
+
+.profilepic {
+  height: 32px;
+  margin-top: -8px;
+  margin-right: -10px;
+}
+
+/* LOGO */
+.googlelogo {
+  display: flex;
+  justify-content: center;
+  margin-top: 212px;
+}
+
+/* SEARCH BAR */
+
+.input {
+  width: 579px;
+  height: 42px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 50px;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 26px
+}
+
+.glass {
+  position: relative;
+  height: 15px;
+  left: 32px;
+  top: 30px;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
+.mic {
+  position: relative;
+  height: 20px;
+  right: 36px;
+  top: 33px;
+  margin-top: -20px;
+  margin-right: -15px;
+}
+
+/* BUTTONS */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+  gap: 10px;
+}
+
+.searchbtns {
+  border-style: none;
+  background-color: ghostwhite;
+  height: 35px;
+  width: 135px;
+  font-size: 0.9rem;
+  color: darkslategray;
+  border-radius: 5px;
+}
+.searchbtns:hover {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+}
+
+.bottomlink {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+/* FOOTER */
+
+/* .containerbottom {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  margin: 22px 20px 20px 19px
+  flex: 1;
+} */
+
+.footerleft {
+  display: flex;
+  gap: 30px;
+  padding-left: 35px;
+  padding-top: 15px;
+}
+
+.footermid {
+  display: flex;
+  padding-top: 15px;
+  padding-right: 60px;
+}
+
+.footerright {
+  display: flex;
+  gap: 30px;
+  padding-top: 15px;
+  padding-right: 35px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  margin-left: -8px;
+  background-color: whitesmoke;
+  height: 47px;
+}
+
+.footerlinks {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.leaf {
+  height: 14px;
+  margin-left: -50px;
+  margin-right: 5px;
+}
